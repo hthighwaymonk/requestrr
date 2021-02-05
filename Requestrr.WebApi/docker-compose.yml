@@ -1,7 +1,7 @@
 version: "3.4"
 services:
   requestrr:
-    image: darkalfx/requestrr
+    image: hthighwaymonk/requestrr
     hostname: requestrr
     container_name: requestrr
     ports:
