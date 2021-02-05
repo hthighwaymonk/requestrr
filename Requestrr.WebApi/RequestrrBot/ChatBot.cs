@@ -391,7 +391,7 @@ namespace Requestrr.WebApi.RequestrrBot
                 _logger.LogError($"An unknown occurred error while processing a command: {result.ErrorReason}");
             }
 
-            await context.Channel.SendMessageAsync("An unexpected error occurred while trying to process your request.");
+            await context.Channel.SendMessageAsync("your request has been submitted.");
         }
     }
 }
